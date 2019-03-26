@@ -26,6 +26,10 @@ TO DO 12: Add Pecca's spon casting as an option
 
 TO DO 13: Add Cha based turning as an option
 
+Version 0.76.09
+
+- Integrated Changes to tp2 (made by both GS for spells and SR compatibility and SD for updated sphere system)
+
 Version 0.76.08
 
 2019-03-21
