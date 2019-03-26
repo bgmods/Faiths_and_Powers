@@ -26,6 +26,18 @@ TO DO 12: Add Pecca's spon casting as an option
 
 TO DO 13: Add Cha based turning as an option
 
+Version 0.76.08
+
+2019-03-21
+
+- Changed Harm Sphere to Decay (2e version)
+
+- Added a few spells to 2e Fire sphere
+
+- Incorporated beginning of Minor creation (from B_Spells)
+
+- Added res version of Expeditious Retreat
+
 Version 0.76.07
 
 2019-03-20
