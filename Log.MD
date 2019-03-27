@@ -26,10 +26,13 @@ TO DO 12: Add Pecca's spon casting as an option
 
 TO DO 13: Add Cha based turning as an option
 
-
 Version 0.77.00
 
 2019-03-27
+
+- Minor Text Update
+
+Version 0.77.00
 
 - More 2e sphere updates
 
