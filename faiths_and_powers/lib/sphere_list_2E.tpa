@@ -247,14 +247,16 @@ CLERIC_CHAMPIONS_STRENGTH              , 5 => Law
 //Shield of Law                        , 5 => Law // NEW SPELL http://pathfinder.d20srd.org/coreRulebook/spells/shieldOfLaw.html#shield-of-law Not just effective vs. chaotic creatures
 
 //  "Chaos"
-//Chaos Ward                           , 2 => Chaos // NEW SPELL p111
-//Hideous Laughter                     , 2 => Chaos // NEW SPELL wiz p918
+//Berserk                              , 1 => Chaos // NEW SPELL Touch a creature to instill a berserker rage,like the berserk ability
+//Chaos Ward                           , 1 => Chaos // NEW SPELL p111
 CLERIC_SHATTER                         , 2 => Chaos
-CLERIC_MISCAST_MAGIC                   , 2 => Chaos
+//Hideous Laughter                     , 2 => Chaos // NEW SPELL wiz p918
+CLERIC_MISCAST_MAGIC                   , 3 => Chaos
 CLERIC_BLOOD_RAGE                      , 4 => Chaos
 CLERIC_CHAOTIC_COMMANDS                , 5 => Chaos
 CLERIC_ENTROPY_SHIELD                  , 6 => Chaos
 CLERIC_CONFUSION                       , 6 => Chaos
+//Havoc                                , 7 => Chaos //NEW SPELL Creates a vortex around the caster.  Enemies are damaged and can be knocked back p74 pfrpg
 //Chain Madness                        , 7 => Chaos //NEW SPELL Confusion but like chain lightning p108
 
 //  "Animal"

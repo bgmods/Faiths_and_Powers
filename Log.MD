@@ -26,9 +26,40 @@ TO DO 12: Add Pecca's spon casting as an option
 
 TO DO 13: Add Cha based turning as an option
 
-Version 0.76.09
 
-- Integrated Changes to tp2 (made by both GS for spells and SR compatibility and SD for updated sphere system)
+Version 0.77.00
+
+2019-03-27
+
+- More 2e sphere updates
+
+- Removed Setup_IWD_divine_Spells.tpa, apply_sphere_system.tpa, create_sphere_system.tpa, vanilla_kit_spheres.tpa, mod_kit_spheres.tpa--no longer needed
+
+- Integrated SD's Lib changes
+
+- Integrated SD's kit changes
+
+2019-03-26
+
+- Integrated new new tp2 and ini
+
+- The Hivekeeper bug is fixed.
+
+- The Beast Lord, neé Shapeshifter, can now cast spells with Beast Claw active, and can shapeshift into a werewolf more often.
+
+- Instead of getting shoehorned into the sphere system with a bunch of spells for free, Shamans now choose spells just as in the vanilla game - this can co-exist with the sphere system thanks to @kjeron's spell-learning UI mod.
+
+- Spell selection at character generation is fixed, and now controlled by the sphere system code.
+
+- The sphere system now fully supports alternate sphere definitions. (None are included yet - the 2E system in this package is unfinished, @Grammarsalad is working on it.)
+
+- The "Incarnate of Mystra" is enabled, if anyone wants to try out the spontaneous-casting system (it's just like the Might & Guile bardic casting.)
+
+- The "install sphere system only" option has been tested as rigorously as the "install everything" option
+
+2019-03-26
+
+- Integrated Changes to tp2 and ini (made by both GS for spells and SR compatibility and SD for updated sphere system)
 
 Version 0.76.08
 
