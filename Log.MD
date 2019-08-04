@@ -1,30 +1,6 @@
 # Log
 
-TO DO 01:
-
-TO DO 02:
-
-TO DO 03: Sphere_list_2E (WIZARD_DEATH_SPELL - Enable, Banishment in SR; CLERIC_GOODBERRY_DRUID_VERSION Enable, Goodberry in SR; CLERIC_GOODBERRY, disable in SR; CLERIC_FAERIE_FIRE, Faerie Fire in SR; CLERIC_MASS_CAUSE_LIGHT_WOUNDS, old versions of SR overwrite; CLERIC_CIRCLE_OF_BONES In IWDEE, old versions of SR will overwrite; CLERIC_PRODUCE_FIRE in IWDEE, old versions of SR will overwrite; CLERIC_ANIMAL_SUMMONING_SR_LEVEL_1 SR Animal Sum 1; CLERIC_ANIMAL_SUMMONING_SR_LEVEL_2 SR Ani sum 2; CLERIC_CAUSE_MODERATE_WOUNDS in IWDEE, old versions of SR overwrite; CLERIC_CAUSE_DISEASE in IWDEE, old versions of SR overwrite; CLERIC_ANIMAL_SUMMONING_SR_LEVEL_3 SR Sum an 3; CLERIC_MAGIC_FANG SR Magic Fang; CLERIC_MAGIC_FANG double in IWDEE with old versions of SR; CLERIC_SYMBOL_OF_HOPELESSNESS overwritten in old versions of SR; CLERIC_ANIMAL_SUMMONING_SR_7 in old version of SR;
-
-TO DO 04: SR in IWDEE: Beast Claw --> b_p219.spl; Cause Disease --> b_p320.spl; Circle of Bones --> b_p323.spl; Produce Fire --> b_p419.spl; Mass Cause Light Wounds --> b_p523.spl; Symbol, Hopelessness --> b_p716.spl
-
-TO DO 05: Stronghold assignments for each kit
-
-TO DO 06: Holy symbols
-
-TO DO 07: Remove the "memorize spells" scroll (convert to single-use innate?)
-
-To DO 08: 
-
-TO DO 09: In sphere_list_2E.tpa, decide which spells should be in which spheres (and if any other spells should be added)
-
-TO DO 10:  also in sphere_list_2E.tpa, go over the sphere assignments for all kits (e.g. the sphere of Magic was changed to Weather, so druids need access to Weather, and clerics of Mystra should maybe have it taken away.
-
-TO DO 11:  Possibly implement kjeron's spell-learning-by-UI for shamans
-
-TO DO 12: Add Pecca's spon casting as an option
-
-TO DO 13: Add Cha based turning as an option
+Version 0.77sd10
 
 Version 0.77.00
 

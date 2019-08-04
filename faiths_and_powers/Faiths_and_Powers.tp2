@@ -2,7 +2,7 @@ BACKUP ~faiths_and_powers/backup~
 AUTHOR ~SubtleD and Grammarsalad~
 
 
-VERSION ~0.77.00~
+VERSION ~0.77sd10~
 
 
 //README ~faiths_and_powers/readme-pnp.html~
@@ -27,8 +27,6 @@ ALWAYS
 	INCLUDE ~faiths_and_powers/lib/bg2fp_effect_batches_fnp.tpa~
 
 	INCLUDE ~faiths_and_powers/lib/fl#add_kit_ee.tpa~
-
-	INCLUDE ~faiths_and_powers/lib/qd_multiclass.tpa~
 
 //	INCLUDE ~faiths_and_powers/lib/spell_clone_effects.tpa~
 	
@@ -166,6 +164,11 @@ END
 COPY ~faiths_and_powers/lib/markers/d5_menu.d5~ ~override~
 //__________________________________________________________________________________
 
+//prep for multiclasses_____________________________________________________________
+//
+INCLUDE ~faiths_and_powers/lib/qd_multiclass.tpa~
+//__________________________________________________________________________________
+
 //read in kit functions_____________________________________________________________
 //
 INCLUDE ~faiths_and_powers/lib/add_cleric_kits.tpa~
@@ -242,11 +245,12 @@ INCLUDE ~%mod_folder%/lib/fnp_new_spells.tpa~
 //Now, Immunities.  DO AT THE VERY END OF ALL SPELL INSTALLS
 INCLUDE ~%mod_folder%/lib/immunities.tpa~
 
+/*
 //sr spell deflection compatibility
 ACTION_IF MOD_IS_INSTALLED ~spell_rev.tp2~ ~55~ BEGIN
   INCLUDE ~%mod_folder%/lib/compatibility_SR.tpa~
 END
-
+*/
 //__________________________________________________________________________________
 
 //Create Sphere System______________________________________________________________
@@ -264,7 +268,7 @@ ACTION_IF (%d5_use_spheres% = 0) BEGIN
    OUTER_SET d5_multiclass_druids =	0
    OUTER_SET d5_earth_mystic 	=	0
    OUTER_SET d5_water_mystic 	=	0
-   OUTER_SET d5_air_mystic 	=	0
+   OUTER_SET d5_air_mystic 		=	0
    OUTER_SET d5_fire_mystic 	=	0
    OUTER_SET d5_light_mystic 	=	0
    OUTER_SET d5_shadow_mystic 	=	0
@@ -444,7 +448,7 @@ ACTION_IF (%d5_champion_kelemvor% = 1) BEGIN
  ACTION_IF GAME_IS ~iwdee~ THEN BEGIN   //
   LAF iwdee_champion_kelemvor END
  END
- //kelevmore undead hunter for non-iwdee
+ //kelevmor undead hunter for non-iwdee
  ACTION_IF GAME_IS ~bgee bg2ee eet~ THEN BEGIN   //
   LAF champion_kelemvor END
  END
@@ -564,9 +568,11 @@ END
 ACTION_IF (%d5_elven_archer% = 1) BEGIN
  LAF elven_archer END
 END
+/*
 ACTION_IF (%d5_halfling_slinger% = 1) BEGIN
  LAF halfling_slinger END
 END
+*/
 //
 // (multiclass)
 ACTION_IF (%d5_cm_mystra% = 1) BEGIN
@@ -788,10 +794,13 @@ INCLUDE ~%mod_folder%/lib/fnp_new_spells.tpa~
 //Now, Immunities.  DO AT THE VERY END OF ALL SPELL INSTALLS
 INCLUDE ~%mod_folder%/lib/immunities.tpa~
 
+/*
 //sr spell deflection compatibility
 ACTION_IF MOD_IS_INSTALLED ~spell_rev.tp2~ ~55~ BEGIN
   INCLUDE ~%mod_folder%/lib/compatibility_SR.tpa~
 END
+*/
+
 //__________________________________________________________________________________
 
 //run the sphere system______________________________________________________________
