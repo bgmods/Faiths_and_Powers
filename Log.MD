@@ -1,5 +1,11 @@
 # Log
 
+Version 0.78.00
+
+- Added extra functions from B_spells (just in case)
+
+- Replaced IWD_spells.tra and new_spells.tra with B_Spells version (but Note any differences!)  
+
 Version 0.77sd10
 
 Version 0.77.00

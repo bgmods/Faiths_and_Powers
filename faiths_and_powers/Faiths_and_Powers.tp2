@@ -2,7 +2,7 @@ BACKUP ~faiths_and_powers/backup~
 AUTHOR ~SubtleD and Grammarsalad~
 
 
-VERSION ~0.77sd10~
+VERSION ~0.78.00~
 
 
 //README ~faiths_and_powers/readme-pnp.html~
@@ -34,6 +34,39 @@ ALWAYS
 
 	INCLUDE ~faiths_and_powers/lib/fnp_compat.tpa~
 	
+        INCLUDE ~faiths_and_powers/lib/spon_cast_functions.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/add_sumtable.tpa~
+
+	INCLUDE ~faiths_and_powers/lib/SEQUENCER_MENU.tpa~
+        
+        INCLUDE ~faiths_and_powers/lib/illusion_crea.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/alter_spell_type.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/second_opp.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/tooltips.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/make_cantrip.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/alter_effect.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/alter_effect_add.tpa~
+
+	INCLUDE ~faiths_and_powers/lib/remove_lines.tpa~
+
+	INCLUDE ~faiths_and_powers/lib/spell_to_innate.tpa~
+
+	INCLUDE ~faiths_and_powers/lib/spell_clone_effects.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/bg2fp_effect_batches_fnp.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/bg2fp_effect_batches_b_vise.tpa~
+
+        INCLUDE ~faiths_and_powers/lib/bg2fp_effect_batches_spell_saves.tpa~
+
+
 	ACTION_IF FILE_EXISTS_IN_GAME ~a#ooze.2da~ BEGIN
 	  COPY_EXISTING ~alignmnt.2da~ ~override~
 		REPLACE_TEXTUALLY ~DRUID.+$~ ~DRUID	0	1	0	1	1	1	0	1	0 ~
